@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jackson Koffi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="porfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Jackson Koffi</div>
+            
+            <!-- Bouton Hamburger -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#passion">Ma Passion</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="subtitle">BIENVENUE SUR MON PORTFOLIO</p>
+                    <h1>Bonjour, je suis <span class="highlight">Jackson Koffi</span></h1>
+                    <p class="role">Développeur Fullstack Junior en Apprentissage</p>
+                    <p class="description">
+                        Je m'appelle Jackson Koffi, développeur fullstack junior en plein apprentissage. 
+                        Je travaille actuellement avec Next.js pour le frontend et FastAPI pour le backend. 
+                        Chaque jour, j'apprends quelque chose de nouveau et je suis motivé à progresser dans le développement web moderne.
+                    </p>
+                    
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <i class="fab fa-react"></i>
+                            <span>Next.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" id="contactBtn">
+                            <i class="fas fa-paper-plane"></i>
+                            Me contacter
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="hero-photo">
+                    <img src="pubic/KKJ.jpg" alt="Jackson Koffi - Développeur Fullstack">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about-section">
+        <div class="container">
+            <h2 class="section-title">À propos de <span class="highlight">moi</span></h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Qui suis-je ?</h3>
+                    <p class="intro">
+                        <strong>Jackson Koffi</strong>, développeur Fullstack Junior passionné par l'apprentissage 
+                        et la création de solutions web.
+                    </p>
+                    <p>
+                        Je suis actuellement en pleine phase d'apprentissage du développement web. Mon objectif 
+                        est de créer des applications fonctionnelles et de progresser chaque jour. Je me concentre 
+                        sur les fondamentaux et j'apprends à utiliser des technologies modernes comme Next.js et FastAPI.
+                    </p>
+
+                    <h4>Mon parcours</h4>
+                    <p>
+                        J'ai commencé à apprendre la programmation car je veux créer des solutions qui aident 
+                        les gens en Afrique. Je suis autodidacte et j'utilise des ressources en ligne pour 
+                        apprendre le développement web. Mon parcours est encore au début, mais je suis déterminé 
+                        à devenir un bon développeur.
+                    </p>
+
+                    <h4>Mes centres d'intérêt</h4>
+                    <ul class="interests-list">
+                        <li><i class="fas fa-brain"></i> Intelligence Artificielle et nouvelles technologies</li>
+                        <li><i class="fas fa-hands-helping"></i> Apprendre et partager mes connaissances</li>
+                        <li><i class="fas fa-lightbulb"></i> Projets pratiques et apprentissage par la pratique</li>
+                        <li><i class="fas fa-share-alt"></i> Contribuer à la tech en Afrique</li>
+                    </ul>
+                </div>
+
+                <div class="about-skills">
+                    <h4>Mes compétences</h4>
+                    <div class="skill-item">
+                        <span class="skill-name">Next.js / React</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 60%" data-width="60"></div>
+                        </div>
+                        <span class="skill-percent">En apprentissage</span>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <span class="skill-name">FastAPI / Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 55%" data-width="55"></div>
+                        </div>
+                        <span class="skill-percent">En apprentissage</span>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <span class="skill-name">HTML5 / CSS3</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%" data-width="70"></div>
+                        </div>
+                        <span class="skill-percent">Bon niveau</span>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 50%" data-width="50"></div>
+                        </div>
+                        <span class="skill-percent">En apprentissage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Ma Passion -->
+    <section id="passion" class="passion-section">
+        <div class="container">
+            <h2 class="section-title">Ma <span class="highlight">Passion</span></h2>
+
+            <div class="passion-content">
+                <div class="passion-intro">
+                    <i class="fas fa-brain passion-icon"></i>
+                    <h3>Développement Full Stack et Intelligence Artificielle</h3>
+                    <p class="lead">
+                        Je suis passionné par le développement web et l'Intelligence Artificielle. Je crois que 
+                        ces technologies peuvent transformer l'Afrique et aider à résoudre des problèmes réels.
+                    </p>
+                </div>
+
+                <div class="passion-why">
+                    <h4>Pourquoi cette passion ?</h4>
+                    <p>
+                        J'ai découvert la programmation et j'ai réalisé qu'avec du code, on peut créer des 
+                        choses incroyables qui facilitent la vie des gens. Mon rêve est d'apprendre suffisamment 
+                        pour créer des applications utiles et partager mes connaissances avec d'autres personnes 
+                        qui veulent se lancer dans la tech, surtout en Afrique.
+                    </p>
+                    <p>
+                        Ce qui me motive le plus, c'est l'idée que la technologie peut créer des opportunités. 
+                        Je veux être capable de construire des solutions qui aident ma communauté et d'enseigner 
+                        aux autres comment utiliser la tech pour améliorer leur vie.
+                    </p>
+                </div>
+
+                <div class="passion-goals">
+                    <h4>Mes objectifs</h4>
+                    <div class="goals-grid">
+                        <div class="goal-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h5>Apprendre</h5>
+                            <p>Maîtriser le développement fullstack et comprendre les bases de l'IA</p>
+                        </div>
+                        <div class="goal-card">
+                            <i class="fas fa-project-diagram"></i>
+                            <h5>Créer</h5>
+                            <p>Développer des projets qui résolvent des problèmes réels en Afrique</p>
+                        </div>
+                        <div class="goal-card">
+                            <i class="fas fa-users"></i>
+                            <h5>Partager</h5>
+                            <p>Enseigner aux autres et contribuer à la communauté tech africaine</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="passion-cta">
+                    <p>Vous partagez cette passion ? Discutons ensemble !</p>
+                    <button class="btn btn-primary" id="passionBtn">
+                        <i class="fas fa-handshake"></i> Échanger ensemble
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="footer-quote">"Chaque ligne de code est une étape vers mes rêves."</p>
+            
+            <div class="footer-social">
+                <a href="https://github.com/Jackson-git-lab" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/feed/" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:koffijackson21@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            
+            <p class="footer-copyright">© 2026 Jackson Koffi - Portfolio d'apprentissage</p>
+        </div>
+    </footer>
+
+    <!-- Modal pour le formulaire de contact -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Me Contacter</h3>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">
+                        <i class="fas fa-user"></i> Nom complet
+                    </label>
+                    <input type="text" id="name" name="name" required placeholder="Votre nom">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">
+                        <i class="fas fa-envelope"></i> Email
+                    </label>
+                    <input type="email" id="email" name="email" required placeholder="votre.email@exemple.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">
+                        <i class="fas fa-comment"></i> Message
+                    </label>
+                    <textarea id="message" name="message" rows="3" required placeholder="Votre message..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <i class="fas fa-paper-plane"></i> Envoyer le message
+                </button>
+            </form>
+            
+            <div id="formSuccess" class="form-message success-message" style="display: none;">
+                <i class="fas fa-check-circle"></i>
+                <p>Merci ! Votre message a été envoyé avec succès. Je vous répondrai bientôt !</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pour les messages -->
+    <div id="messageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modalTitle">Titre du message</h3>
+            <p id="modalMessage">Contenu du message</p>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
